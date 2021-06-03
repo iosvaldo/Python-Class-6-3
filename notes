@@ -1,0 +1,45 @@
+#Strings, Integers, Floats
+
+# "Hello World"
+
+# 10000
+
+# 6.99
+
+print(100/10,8/3,"Hello","Bye")
+
+print(int("3")+int("3"))
+
+first_name = "Tony "
+last_name = "Smith"
+last_name = "Robbins"
+age = "61"
+
+#Tony Robbins is 61 years old
+
+print(first_name  + last_name + "is " + age + " year old.")
+
+
+
+first_name = "Tony"
+last_name = "Smith"
+last_name = "Robbins"
+age = "61"
+year = 1960
+pet_name = "Max"
+fav_food = "Pizza"
+
+#Tony Robbins is 61 years old and has been living in NYC since 1960. He has a pet named Max, and they both love pizza.
+
+MyBio = f" {first_name} {last_name} is {age} years old and has been living in Manhattan since {year}. He has a pet named {pet_name} and they both love eating {fav_food}. "
+
+
+print(MyBio)
+
+
+def SplitTheBill(ppl,bill,tip):
+  share = (1 + tip) * bill/ppl
+  share = round(share,2)
+  return share
+  
+print(f" I went to dinner last night with 4 friends and I spent $ {SplitTheBill(5,100.17,0.15)}.")
